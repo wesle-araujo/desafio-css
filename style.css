@@ -4,12 +4,15 @@
 
 body{
     background-color: #FAF7FD;
+    margin: 0 auto;
 }
 
 .conteudo{
     width: 500px;
     margin: 0 auto;
     color: #BB99DD;
+    border: solid 1px rebeccapurple;
+    margin: 30px auto;
 }
 .container{
     text-align: center;
@@ -57,7 +60,7 @@ body{
     
 }
 
-.footer{
+footer{
 
     /*
         usado para posicionar o elemento
@@ -65,9 +68,10 @@ body{
         border: solid 1px blue;
     
     */
+
     text-align: center;
     padding: 10px 0;
 }
-.footer img{
+footer img{
     padding-left: 25px;
 }
